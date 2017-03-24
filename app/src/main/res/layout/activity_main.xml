@@ -22,6 +22,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#000000"></View>
+            <com.yyx.customcontrol.widget.VideosView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </com.yyx.customcontrol.widget.VideosView>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
