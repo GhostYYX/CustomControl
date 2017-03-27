@@ -2,19 +2,20 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:id="@+id/li_video">
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp">
+        android:layout_height="250dp"
+        android:background="#000000"
+        android:padding="10dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#000000">
+            android:layout_height="match_parent">
 
             <VideoView
-                android:id="@+id/item_farm_dynamic_videos_show"
+                android:id="@+id/video"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
@@ -24,7 +25,8 @@
         <ImageView
             android:id="@+id/video_thumbnail"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:src="@drawable/default_video"/>
 
         <Button
             android:id="@+id/button_play"
